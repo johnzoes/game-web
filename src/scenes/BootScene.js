@@ -7,6 +7,7 @@ export default class BootScene extends Phaser.Scene {
 
     preload() {
         this.load.video('backgroundVideo', 'assets/videos/background-game.mp4', 'loadeddata', false, true);
+        this.load.image('spark', 'assets/particles/spark.png');
     }
 
     create() {
